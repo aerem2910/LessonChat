@@ -6,7 +6,7 @@ internal class Client
 {
     public static void SendMsg(string name)
     {
-        IPEndPoint ep = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 5050);
+        IPEndPoint ep = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 16872);
         UdpClient udpClient = new UdpClient(0);
 
         while (true)
